@@ -1,6 +1,6 @@
 # face-capture
 
->Data collection and data preprocessing takes about 90% of effort in machine learning projects. This project aims to provide a tool for creating a dataset of faces. 
+Data collection and data preprocessing takes about 90% of effort in machine learning projects. This project aims to provide a tool for creating a dataset of faces. 
 
 ## Project Structure
 ```
