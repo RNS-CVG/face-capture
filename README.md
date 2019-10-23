@@ -55,5 +55,5 @@ What things you need to install the software and how to install them:
 ### Running the Code
 What commands and how are they used to run the code.
 ```
-python face_capture.py --cascade haarcascade_frontalface_default.xml --output dataset/name
+python face_capture.py --cascade haarcascade_frontalface_default.xml --output media/name
 ```
