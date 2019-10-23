@@ -5,11 +5,9 @@ Data collection and data preprocessing takes about 90% of effort in machine lear
 ## Project Structure
 ```
 -src
-  -main.py
-  -face_detect.py
--media
-  -images
-    -- *
+  -face_capture.py
+  -media
+    -images
 ```
 
 * Install Python 3.x from [Python.org](https://www.python.org/). 
@@ -20,7 +18,7 @@ Data collection and data preprocessing takes about 90% of effort in machine lear
 * Create the above project sturcture and the files.
 * Install OpenCV with: ```pip install opencv-python```.
 * Refer to face-detction repository for face detection. [reference](https://github.com/RNS-CVG/face-detection)
-* Create all functions in **face_capture.py** and then later import the function into **main.py** after testing.
+* Create all functions in **face_capture.py**.
   * To read and display images in CV, refer to [this](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_gui/py_image_display/py_image_display.html).
   * To read and display videos in CV, refer to [this](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_gui/py_video_display/py_video_display.html).
   * To perform face-detection and draw bounding boxes, refer to [this](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetect/py_face_detection/py_face_detection.html).
@@ -50,11 +48,12 @@ What things you need to install the software and how to install them:
 3.Install python 3.6 using command conda install python=3.6
 4.Install OpenCV library using command pip install opencv-python
 5.Install VScode editor using the Anaconda GUI interface.
+6.Install imutils '''pip install imutils'''
 6.Create a .py file to run the python program.
 7.Debug and Run the program.
 ```
 ### Running the Code
 What commands and how are they used to run the code.
 ```
-python main.py
+python face_capture.py --cascade haarcascade_frontalface_default.xml --output dataset/name
 ```
